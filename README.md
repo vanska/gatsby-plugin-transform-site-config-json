@@ -1,18 +1,14 @@
-# gatsby-plugin-pages-from-json
+# gatsby-plugin-transform-site-config-json
 
-Creates pages from JSON configuration using Gatsby's `createPages` API.
+Transforms site config JSON from `config/site-config.json` to Gatsby data node.
 
 ## Installing
 
 ```bash
-npm install --dev vanska/gatsby-plugin-pages-from-json vanska/tiny-i18n
+npm install --dev vanska/gatsby-plugin-transform-site-config-json
 ```
 
-## Todo
-
-- Remove dependency of tiny-i18n
-
-## JSON configuration
+## Example site configuration
 
 ```js
 // config/site-config.json
