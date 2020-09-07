@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-transform-site-config-json",
   "description": "Transforms site config JSON to Gatsby data node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Mikko Vänskä <mikkovanska.com@gmail.com>",
   "dependencies": {
     "@babel/runtime": "^7.10.3"

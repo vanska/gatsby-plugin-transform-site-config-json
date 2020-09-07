@@ -50,3 +50,17 @@ npm install --dev vanska/gatsby-plugin-transform-site-config-json
   "generateFirebaseHostingRules": true
 }
 ```
+
+## Query site-config from gatsby
+
+```js
+const { siteConfig } = useStaticQuery(
+  graphql`
+    query {
+      siteConfig {
+        languages
+      }
+    }
+  `,
+)
+```
